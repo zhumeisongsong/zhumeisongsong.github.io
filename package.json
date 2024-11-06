@@ -1,0 +1,38 @@
+{
+  "name": "zhumeisongsong.github.io",
+  "version": "0.0.0-semantic-release",
+  "license": "MIT",
+  "devDependencies": {
+    "@zhumeisong/git-cz-config": "^1.2.0",
+    "git-cz": "^4.9.0",
+    "semantic-release": "^24.2.0",
+    "vitepress": "^1.5.0"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src"
+  },
+  "author": "Zhumei Song <zhumeisongsong@gmail.com>",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  },
+  "packageManager": "pnpm@9.12.3",
+  "volta": {
+    "node": "22.11.0",
+    "pnpm": "9.12.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
