@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Zhumei Song",
+  title: "Song",
   description: "Software engineer based in Tokyo. 🇯🇵",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -11,7 +11,6 @@ export default defineConfig({
       { text: "CV", link: "https://zhumeisongsong.github.io/cv" },
       { text: "Blog", link: "https://zhumeisongsong.github.io/blog" },
     ],
-
     socialLinks: [
       { icon: "github", link: "https://github.com/zhumeisongsong" },
     ],
@@ -28,7 +27,7 @@ export default defineConfig({
       "meta",
       {
         name: "google-site-verification",
-        content: "1A3myPAsbW4yU-SCkZlmMSVmyagcPQGxCxU2IfHhx4",
+        content: "71A3myPAsbW4yU-SCkZlmMSVmyagcPQGxCxU2IfHhx4",
       },
     ],
   ],
