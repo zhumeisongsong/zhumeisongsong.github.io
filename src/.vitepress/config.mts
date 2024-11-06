@@ -23,6 +23,13 @@ export default defineConfig({
         name: "google-adsense-account",
         content: "ca-pub-1141212403322647",
       },
+    ],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "1A3myPAsbW4yU-SCkZlmMSVmyagcPQGxCxU2IfHhx4",
+      },
     ]
   ],
 })
