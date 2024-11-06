@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Zhumei Song"
-  text: "Software engineer"
+  text: "Software engineer based in Tokyo. 🇯🇵"
   tagline: tagline/tagline/tagline
   # actions:
   #   - theme: brand
@@ -15,11 +15,27 @@ hero:
   #     link: /api-examples
 
 features:
-  - title: PJ 1
+  - icon: 🛠️
+    title: PJ 1
     details: Independent development project
-  - title: PJ 2
+
+  - icon: 🛠️
+    title: PJ 2
     details: Independent development project
-  - title: PJ 3
+
+  - icon: 🛠️
+    title: PJ 3
+    details: Independent development project
+
+  - icon: 🛠️
+    title: PJ 1
+    details: Independent development project
+
+  - icon: 🛠️
+    title: PJ 2
+    details: Independent development project
+
+  - icon: 🛠️
+    title: PJ 3
     details: Independent development project
 ---
-
