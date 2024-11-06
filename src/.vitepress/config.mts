@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,14 +7,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'CV', link: 'https://zhumeisongsong.github.io/cv' },
-      { text: 'Blog', link: 'https://zhumeisongsong.github.io/blog' }
+      { text: "Home", link: "/" },
+      { text: "CV", link: "https://zhumeisongsong.github.io/cv" },
+      { text: "Blog", link: "https://zhumeisongsong.github.io/blog" },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhumeisongsong' }
-    ]
+      { icon: "github", link: "https://github.com/zhumeisongsong" },
+    ],
   },
   head: [
     [
@@ -30,6 +30,6 @@ export default defineConfig({
         name: "google-site-verification",
         content: "1A3myPAsbW4yU-SCkZlmMSVmyagcPQGxCxU2IfHhx4",
       },
-    ]
+    ],
   ],
-})
+});
