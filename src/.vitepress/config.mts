@@ -15,5 +15,14 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhumeisongsong' }
     ]
-  }
+  },
+  head: [
+    [
+      "meta",
+      {
+        name: "google-adsense-account",
+        content: "ca-pub-1141212403322647",
+      },
+    ]
+  ],
 })
