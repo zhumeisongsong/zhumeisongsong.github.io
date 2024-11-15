@@ -15,27 +15,7 @@ hero:
   #     link: /api-examples
 
 features:
-  - icon: 🛠️
-    title: PJ 1
-    details: Independent development project
-
-  - icon: 🛠️
-    title: PJ 2
-    details: Independent development project
-
-  - icon: 🛠️
-    title: PJ 3
-    details: Independent development project
-
-  - icon: 🛠️
-    title: PJ 1
-    details: Independent development project
-
-  - icon: 🛠️
-    title: PJ 2
-    details: Independent development project
-
-  - icon: 🛠️
-    title: PJ 3
-    details: Independent development project
+  - icon: 🍃
+    title: Daily Delight
+    details: Bring happiness by small action.
 ---
