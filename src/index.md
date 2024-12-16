@@ -16,6 +16,12 @@ hero:
 
 features:
   - icon: 🍃
-    title: Daily Delight
+    title: Daily Delight Web App
     details: Bring happiness by small action.
+    link: /daily-delight
+
+  - icon: 📚
+    title: Time and Space Quiz Gama Web App
+    details: Quiz game for learning the Geography and History knowledge.
+    link: /quiz-game
 ---
