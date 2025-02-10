@@ -98,8 +98,17 @@ Context: Aggregates user actions, identifies patterns, and creates reports for u
 
 ## Tech Stack
 
-Architecture: Clean Architecture / GraphQL Federation
-Backend: AI SDK/ nestjs
-Frontend: React
-Database: MongoDB
-Messaging: RabbitMQ for event-driven messaging between services.
+- Architecture: Clean Architecture / GraphQL Federation
+- Backend: AI SDK/ nestjs
+- Frontend: React
+- Database: MongoDB
+- Messaging: RabbitMQ for event-driven messaging between services.
+
+<!-- ## auth flow
+- User submit email and password to login
+- get jwt token after login success
+- use jwt token to protect resources
+- parse jwt token to get user id
+- use user id to get user profile
+- show error message if login failed
+- if no user, ask user to sign up -->
